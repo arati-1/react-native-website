@@ -242,14 +242,9 @@ module.exports = {
                 docId: 'getting-started',
               },
               {
-                label: 'Components',
+                label: 'APIs and Components',
                 type: 'doc',
                 docId: 'components-and-apis',
-              },
-              {
-                label: 'APIs',
-                type: 'doc',
-                docId: 'accessibilityinfo',
               },
               {
                 label: 'Architecture',

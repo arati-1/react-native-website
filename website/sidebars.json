@@ -156,8 +156,10 @@
     ]
   },
   "api": {
-    "APIs": [
+    " JS APIs": [
+      "components-and-apis",
       "accessibilityinfo",
+      "activityindicator",
       "alert",
       "animated",
       "animatedvalue",
@@ -165,23 +167,74 @@
       "appearance",
       "appregistry",
       "appstate",
+      "button",
       "devsettings",
       "dimensions",
       "easing",
+      "flatlist",
+      "image",
+      "imagebackground",
       "interactionmanager",
       "keyboard",
+      "keyboardavoidingview",
       "layoutanimation",
       "linking",
+      "modal",
       "panresponder",
       "pixelratio",
       "platform",
       "platformcolor",
+      "pressable",
       "roottag",
+      "refreshcontrol",
+      "scrollview",
+      "sectionlist",
       "share",
+      "statusbar",
       "stylesheet",
+      "switch",
       "systrace",
+      "text",
+      "textinput",
+      "touchablehighlight",
+      "touchableopacity",
+      "touchablewithoutfeedback",
       "transforms",
       "vibration",
+      "view",
+      "virtualizedlist",
+      {
+        "type": "category",
+        "label": "Props",
+        "collapsed": false,
+        "items": ["image-style-props",
+          "layout-props",
+          "shadow-props",
+          "text-style-props",
+          "view-style-props"]
+      },
+      {
+        "type": "category",
+        "label": "Object Types",
+        "collapsed": false,
+        "items": ["layoutevent",
+          "pressevent",
+          "react-node",
+          "rect",
+          "viewtoken"]
+      },
+      {
+        "type": "category",
+        "label": "Android Components",
+        "collapsed": false,
+        "items": ["drawerlayoutandroid", "touchablenativefeedback"]
+      },
+      {
+        "type": "category",
+        "label": "iOS Components",
+        "collapsed": false,
+        "items": ["inputaccessoryview", "safeareaview"]
+      },
       {
         "type": "category",
         "label": "Hooks",
@@ -201,56 +254,7 @@
         "items": ["actionsheetios", "dynamiccolorios", "settings"]
       }
     ]
-  },
-  "components": {
-    "Core Components": [
-      "components-and-apis",
-      "activityindicator",
-      "button",
-      "flatlist",
-      "image",
-      "imagebackground",
-      "keyboardavoidingview",
-      "modal",
-      "pressable",
-      "refreshcontrol",
-      "scrollview",
-      "sectionlist",
-      "statusbar",
-      "switch",
-      "text",
-      "textinput",
-      "touchablehighlight",
-      "touchableopacity",
-      "touchablewithoutfeedback",
-      "view",
-      "virtualizedlist",
-      {
-        "type": "category",
-        "label": "Android Components",
-        "collapsed": false,
-        "items": ["drawerlayoutandroid", "touchablenativefeedback"]
-      },
-      {
-        "type": "category",
-        "label": "iOS Components",
-        "collapsed": false,
-        "items": ["inputaccessoryview", "safeareaview"]
-      }
-    ],
-    "Props": [
-      "image-style-props",
-      "layout-props",
-      "shadow-props",
-      "text-style-props",
-      "view-style-props"
-    ],
-    "Object Types": [
-      "layoutevent",
-      "pressevent",
-      "react-node",
-      "rect",
-      "viewtoken"
-    ]
+
   }
+
 }
