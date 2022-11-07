@@ -3,23 +3,21 @@ id: hermes
 title: Using Hermes
 ---
 
-import M1Cocoapods from './\_markdown-m1-cocoapods.mdx';
-
 <a href="https://hermesengine.dev">
 <img width={300} height={300} className="hermes-logo" src="/docs/assets/HermesLogo.svg" />
 </a>
 
-[Hermes](https://hermesengine.dev) is an open-source JavaScript engine optimized for React Native. For many apps, enabling Hermes will result in improved start-up time, decreased memory usage, and smaller app size.
-As of React Native 0.70, Hermes is the default engine and no additional configuration is required to enable it.
+[Hermes](https://hermesengine.dev) is an open-source JavaScript engine optimized for React Native. For many apps, using Hermes will result in improved start-up time, decreased memory usage, and smaller app size when compared to JavaScriptCore.
+Hermes is used by default by React Native and no additional configuration is required to enable it.
 
 ## Bundled Hermes
 
-Starting with React Native 0.69.0, every version of React Native will come with a **bundled version** of Hermes.
+React Native comes with a **bundled version** of Hermes.
 We will be building a version of Hermes for you whenever we release a new version of React Native. This will make sure you're consuming a version of Hermes which is fully compatible with the version of React Native you're using.
 
 Historically, we had problems with matching versions of Hermes with versions of React Native. This fully eliminates this problem, and offers users a JS engine that is compatible with the specific React Native version.
 
-This change is fully transparent to users of React Native. You can still enable/disable Hermes using the command described in this page.
+This change is fully transparent to users of React Native. You can still disable Hermes using the command described in this page.
 You can [read more about the technical implementation on this page](/architecture/bundled-hermes).
 
 ## Confirming Hermes is in use
@@ -164,8 +162,6 @@ Once you've configured it, you can install the Hermes pods with:
 $ cd ios && pod install
 ```
 
-<M1Cocoapods />
-
 That's it! You should now be able to develop and deploy your app as usual:
 
 ```shell
@@ -174,7 +170,7 @@ $ npx react-native run-ios
 
 ## Switching back to JavaScriptCore
 
-React Native also supports using JavaScriptCore as the JS engine. Follow these instructions to opt-out of Hermes.
+React Native also supports using JavaScriptCore as the [JavaScript engine](javascript-environment). Follow these instructions to opt-out of Hermes.
 
 ### Android
 
